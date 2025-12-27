@@ -1,0 +1,22 @@
+{
+  "scene_id": "dopamine_metro_001",
+  "environment": {
+    "type": "underground_metro_tunnel",
+    "lighting": "dark",
+    "fog": "light"
+  },
+  "camera": {
+    "position": [0.0, 1.6, -5.0],
+    "movement": {
+      "type": "slow_dolly_in",
+      "duration": 3.0,
+      "intensity": 0.3
+    },
+    "shake": 0.1
+  },
+  "events": [
+    { "time": 0.5, "type": "light_appear", "intensity": 0.2 },
+    { "time": 1.5, "type": "light_accelerate" },
+    { "time": 2.6, "type": "cut" }
+  ]
+}
